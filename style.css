@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3, h5 {
+    color: #0056b3;
+}
+
+h1 h5 {
+    display: inline;
+    font-size: 16px;
+    color: #333;
+    margin-left: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+section, article {
+    margin: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    margin: 20px;
+    padding: 15px;
+    list-style-type: square;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #0056b3;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    background: #0056b3;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: #003d7a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0056b3;
+    color: white;
+    margin-top: 20px;
+}
+
+footer b {
+    color: #ffdd57;
+}
